@@ -17,7 +17,7 @@ a {
   text-decoration: none;
   color: white;
   align-items: center;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 div
@@ -30,7 +30,7 @@ span
 {
   display: inline-block;
   vertical-align: middle;
-  line-height: 14px; /* <-- adjust this */
+  line-height: 24px; /* <-- adjust this */
 }
 
 p {
