@@ -1,0 +1,39 @@
+body {
+  background-color: navy;
+  text-align: center;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 46px;
+    align-items: center
+}
+
+a {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  max-width: 300px;
+}
+
+div
+{
+  height: 300px;
+  line-height: 300px;
+}
+
+span
+{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px; /* <-- adjust this */
+}
+
+p {
+   margin: 0px;
+   padding: 0px;
+}
