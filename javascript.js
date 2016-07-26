@@ -14,7 +14,7 @@ function nextElement() {
     currentIndex = 0;
   }
 
-  print.innerHTML = myArray[currentIndex];
+  print.innerHTML = itemArray[currentIndex];
   currentIndex++;
 }
 
