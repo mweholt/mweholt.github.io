@@ -18,6 +18,7 @@ html {
 body {
   margin: 0px;
   margin-top: -45px;
+
   padding: 0px;
   height: 100%;
   background: -webkit-radial-gradient(circle farthest-corner at 0% 100%, #FCDF8F 0%, #FBD377 10%, #FA8E37 22%, #F73344 35%, rgba(247, 51, 68, 0) 65%) no-repeat;
@@ -27,6 +28,8 @@ body {
 
 h1 {
     transform: translateY(30px);
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
     color: white;
     font-size: 64px;
@@ -39,7 +42,8 @@ a {
   text-decoration: none;
   color: white;
   min-height: 10em;
-
+  margin-left: 10px;
+  margin-right: 10px;
   position: absolute;
         top: 50%;
         left: 50%;
