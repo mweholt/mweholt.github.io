@@ -1,7 +1,28 @@
-body {
-  background-color: navy;
-  text-align: center;
+
+
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    background: -webkit-linear-gradient(305deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+    background: linear-gradient(145deg, #3051F1 10%, #C92BB7 70%) no-repeat;
+
+
 }
+
+body {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 0px;
+  height: 100%;
+  background: -webkit-radial-gradient(circle farthest-corner at 0% 100%, #FCDF8F 0%, #FBD377 10%, #FA8E37 22%, #F73344 35%, rgba(247, 51, 68, 0) 65%) no-repeat;
+  background: radial-gradient(circle farthest-corner at 0% 100%, #FCDF8F 0%, #FBD377 10%, #FA8E37 22%, #F73344 35%, rgba(247, 51, 68, 0) 65%) no-repeat;
+}
+
 
 h1 {
     font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
