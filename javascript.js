@@ -8,8 +8,10 @@ var currentIndex = 0;
 
 print.innerHTML = "Click for something else to do.";
 
+shuffle(itemArray);
+
 function nextElement() {
-  shuffle(itemArray);
+
   if (currentIndex == itemArray.length){
     shuffle(itemArray);
     currentIndex = 0;
